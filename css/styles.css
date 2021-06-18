@@ -9,9 +9,11 @@
 }
 p{
     text-align: center;
+    color: white;
 }
 h1{
     text-align: center;
+    color: white;
 
 }
 img{
@@ -19,4 +21,23 @@ img{
 }
 h2{
     text-align: center;
+    color: white;
+}
+.service{
+    background-image: url("../img/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#about{
+    text-align: center;
+    color: black;
+}
+#sub{
+    text-align: center;
+    color: white;
+}
+#header{
+    text-align: center;
+    color: white;
 }
