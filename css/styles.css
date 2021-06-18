@@ -1,0 +1,22 @@
+.landing{
+    margin-top: 150px;
+    background-image: url('../img/top_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+
+}
+img{
+    margin-left: 500px;
+}
+h2{
+    text-align: center;
+}
