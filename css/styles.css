@@ -16,7 +16,7 @@ h1{
     color: white;
 
 }
-img{
+.logo{
     margin-left: 500px;
 }
 h2{
@@ -39,5 +39,20 @@ h2{
 }
 #header{
     text-align: center;
+    color: white;
+}
+.process{
+    display: flex;
+    justify-content: space-around;
+}
+.row {
+    height: 30%
+}
+.call{
+    background-image: url('../img/background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
     color: white;
 }
