@@ -1,9 +1,9 @@
 .landing{
-    margin-top: 150px;
+    
     background-image: url('../img/top_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     
     
 }
@@ -17,7 +17,8 @@ h1{
 
 }
 .logo{
-    margin-left: 500px;
+    margin-left: 620px;
+    margin-top: 250px;
 }
 h2{
     text-align: center;
@@ -27,6 +28,7 @@ h2{
     background-image: url("../img/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     
 }
 #about{
@@ -55,4 +57,12 @@ h2{
 }
 form{
     color: white;
+}
+.high{
+    display: flex;
+    justify-content: space-evenly;
+}
+.low{
+    display: flex;
+    justify-content: space-evenly;
 }
