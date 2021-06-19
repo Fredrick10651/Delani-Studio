@@ -38,6 +38,7 @@ h2{
 #sub{
     text-align: center;
     color: white;
+
 }
 #header{
     text-align: center;
@@ -65,4 +66,21 @@ form{
 .low{
     display: flex;
     justify-content: space-evenly;
+}
+.analyst{
+    margin-top: 250px;
+}
+.title{
+    color: white;
+}
+.work1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fill{
+    background-image: url("../img/background_image.jpg");
+}
+.icons{
+    align-items: center;
+    margin-left: 400px;
 }
