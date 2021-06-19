@@ -84,3 +84,11 @@ form{
     align-items: center;
     margin-left: 400px;
 }
+#paint{
+    text-align: center;
+    color: black;
+    /* visibility: hidden; */
+}
+.design{
+    visibility: hidden;
+}
