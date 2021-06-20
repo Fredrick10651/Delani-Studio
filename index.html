@@ -18,7 +18,7 @@
             <h1 id="header">WELCOME</h1>
             <h1 id="header">TO DELANI STUDIO</h1>
             <P>AMAZING PEOPLE ARE MAKING AMAZING IN A FUN ENVIRONMENT </P>
-        </div><br><br><br>
+        </div><br><br><br><br><br>
         <div class="fluid container">
             <h2>ABOUT US</h2>
             <P id="about">When you work with us,you are part of a team of committed collaborators. All aspects of our
@@ -29,9 +29,9 @@
             <p id="about">We start each project by understanding your business goals, the user's needs and the product
                 requirements.</p>
             <p>Then we help translate them into effective and elegant solutions.</p>
-        </div><br><br><br>
+        </div><br><br><br><br><br>
         <div class="service">
-            <h2 class="title">SERVICES</h2>
+            <h2 id="title">SERVICES</h2>
             <P class="analyst">Before we sign a contract or write a line of code Our team will spend the necessary time
                 needed to
                 understand your product vision</P>
@@ -40,9 +40,9 @@
         </div><br><br><br><br><br><br><br><br><br>
         <div class="container">
             <div>
-                <h2>WHAT WE DO</h2>
+                <h2>WHAT WE DO</h2><br><br>
                 <div class="process">
-                    <div>
+                    <div class="one">
                         <img src="./img/design_icon.png" alt="design">
                         <div class="design">
                             <h2>Design</h2>
@@ -86,31 +86,32 @@
         </div><br><br><br>
         <h2>PORTFOLIO</h2>
         <div class="container">
-            <img src="./img/work4.jpg" alt="blank">
-            <img src="./img/work3.jpg" alt="ontario">
-            <img src="./img/work2.jpg" alt="orange">
-            <img src="./img/work1.jpg" alt="dj">
+            <div class="column">
+                <img src="./img/work4.jpg" alt="blank">
+                <img src="./img/work3.jpg" alt="ontario">
+                <img src="./img/work2.jpg" alt="orange">
+                <img src="./img/work1.jpg" alt="dj">
+            </div>
         </div><br>
         <div class="container">
+            <div class="column">
             <img src="./img/work5.jpg" alt="">
             <img src="./img/work6.jpg" alt="">
             <img src="./img/work7.jpg" alt="">
             <img src="./img/work8.jpg" alt="">
+        </div>
         </div><br><br>
         <div class="fill">
-            <form>
-                <div class="row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Name...">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Email...">
-                    </div>
-                </div><br><br>
-            </form>
-            <label for="subject"></label>
-            <textarea id="subject" class="form-control" placeholder="Your message here..."
-                style="height:200px"></textarea><br><br><br>
+            <div class="form">
+                <form action="/action_page.php" id="usrform">
+                    <input type="text" name="usrname" style="background: transparent;" size="50" placeholder="Name...">
+                    <input type="text" name="usrname" style="background: transparent;" size="50" placeholder="Email...">
+                </form>
+                <br>
+                <textarea rows="8" cols="100" style="background: transparent; color: white;" name="comment"
+                    form="usrform">Your message here...</textarea>
+            </div>
+
         </div><br><br><br>
         <div class="icons">
             <a href="https://twitter.com/login?lang=en" target="_blank"><img src="./img/twitter.png" alt="tw"></a>
