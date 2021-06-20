@@ -2,7 +2,7 @@
 #### By **Fredrick Angose Mutsotso**
 ## Description
 
- This is the link to my [live site]( https://github.com/Fredrick10651/Delani-Studio/)
+ This is the link to my [live site]( https://fredrick10651.github.io/Delani-Studio/)
 
 
 ## Setup/Installation Requirements
