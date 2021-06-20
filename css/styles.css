@@ -1,3 +1,37 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary {
+      width: 67%;
+    }
+    #secondary {
+      width: 30%;
+      margin-left: 3%;
+    }
+  }
+  
+  /* Media Queries: Tabled Portrait */
+  @media screen and (max-width: 768px) {
+    #primary {
+      width: 100%;
+    }
+    #secondary {
+      width: 100%;
+      margin: 0;
+      border: none;
+    }
+  }
+  
+  @media (min-device-width: 600px) {
+    img[data-src-600px] {
+      content: attr(data-src-600px, url);
+    }
+  }
+  
+  @media (min-device-width: 800px) {
+    img[data-src-800px] {
+      content: attr(data-src-800px, url);
+    }
+  }
 .landing{
     
     background-image: url('../img/top_image.jpg');
@@ -7,7 +41,7 @@
     
     
 }
-p{
+p#paragraph{
     text-align: center;
     color: white;
 }
@@ -72,17 +106,13 @@ form{
 }
 #title{
     color: white;
+    margin-top: 50px;
 }
 .work1{
     display: flex;
     justify-content: space-evenly;
 }
-.fill{
-    background-image: url("../img/background_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
+
 .icons{
     align-items: center;
     margin-left: 400px;
@@ -98,16 +128,40 @@ form{
 ::placeholder{
     color: white;
 }
-.form{
-    display: inline-block;
+#file {
+    background-image: url('../img/background_image.jpg');
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+  }
+  con {
+    padding-top: 20px;
+  }
+  form {
+    color: none;
+  }
+  input,
+  textarea {
+    background-color: transparent;
+    color: white;
+  }
+  #portfolio {
+    text-align: center;
+  }
+  .des,
+.dev,
+.pro {
+  display: none;
 }
-.column {
-    display: flex;
-    flex: 100%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
+#work{
+    text-align: center;
+    color: white;
+       
+}
+.move{
+    margin-top:250px;
+}
+h3{
+    text-align: center;
+    margin-top: 240px;
+}
