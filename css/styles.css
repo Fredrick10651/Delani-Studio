@@ -70,7 +70,7 @@ form{
 .analyst{
     margin-top: 250px;
 }
-.title{
+#title{
     color: white;
 }
 .work1{
@@ -79,6 +79,9 @@ form{
 }
 .fill{
     background-image: url("../img/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 .icons{
     align-items: center;
@@ -92,3 +95,19 @@ form{
 .design{
     visibility: hidden;
 }
+::placeholder{
+    color: white;
+}
+.form{
+    display: inline-block;
+}
+.column {
+    display: flex;
+    flex: 100%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
