@@ -104,10 +104,10 @@ form{
 .analyst{
     margin-top: 250px;
 }
-#title{
+/* #title{
     color: white;
-    margin-top: 50px;
-}
+    margin-top: 250px;
+} */
 .work1{
     display: flex;
     justify-content: space-evenly;
@@ -165,3 +165,21 @@ h3{
     text-align: center;
     margin-top: 240px;
 }
+.mouse {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    animation: bounce 3s infinite;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
+  
+  #scroll {
+    align-items: center;
+  }
+  
