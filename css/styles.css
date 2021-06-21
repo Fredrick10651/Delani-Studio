@@ -1,5 +1,7 @@
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
+
+  
+  /* Media Queries: Tablet Landscape */
+  @media screen and (max-width: 1060px) {
     #primary {
       width: 67%;
     }
@@ -19,6 +21,12 @@
       margin: 0;
       border: none;
     }
+    body {
+        overflow-x: hidden;
+      }
+      html{
+        scroll-behavior: smooth;
+      }
   }
   
   @media (min-device-width: 600px) {
@@ -32,104 +40,64 @@
       content: attr(data-src-800px, url);
     }
   }
-.landing{
-    
-    background-image: url('../img/top_image.jpg');
+  
+  #landing {
+    background-image: url(../img/top_image.jpg);
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
-    
-}
-p#paragraph{
+    padding-top: 180px;
+    /* height: auto;
+    max-width: 100; */
+  }
+  
+  .mouse {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    animation: bounce 3s infinite;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+  }
+  
+  #describe {
     text-align: center;
-    color: white;
-}
-h1{
+  }
+  #offer {
+    background-image: url(../img/s_image.jpg);
     text-align: center;
-    color: white;
-
-}
-.logo{
-    margin-left: 620px;
-    margin-top: 250px;
-}
-h2{
-    text-align: center;
-    color: white;
-}
-.service{
-    background-image: url("../img/s_image.jpg");
+    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    
-}
-#about{
+    padding-top: 100px;
+  }
+  .logo {
+    margin-top: px;
+  }
+  #what {
     text-align: center;
-    color: black;
-}
-#sub{
-    text-align: center;
-    color: white;
-
-}
-#header{
-    text-align: center;
-    color: white;
-}
-.process{
+  }
+  /* .icons {
     display: flex;
     justify-content: space-around;
-}
-.row {
-    height: 30%
-}
-.call{
-    background-image: url('../img/background_image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-form{
-    color: white;
-}
-.high{
-    display: flex;
-    justify-content: space-evenly;
-}
-.low{
-    display: flex;
-    justify-content: space-evenly;
-}
-.analyst{
-    margin-top: 250px;
-}
-/* #title{
-    color: white;
-    margin-top: 250px;
-} */
-.work1{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.icons{
-    align-items: center;
-    margin-left: 400px;
-}
-#paint{
+    flex-wrap: wrap; 
     text-align: center;
-    color: black;
-    /* visibility: hidden; */
-}
-.design{
-    visibility: hidden;
-}
-::placeholder{
-    color: white;
-}
-#file {
-    background-image: url('../img/background_image.jpg');
+  } */
+  #portfolio {
+    text-align: center;
+  }
+  .port {
+    display: flex;
+    justify-content: space-around;
+  }
+  #contacts {
+    background-image: url(../img/background_image.jpg);
     text-align: center;
     height: 100vh;
     padding-top: 60px;
@@ -145,41 +113,50 @@ form{
     background-color: transparent;
     color: white;
   }
-  #portfolio {
+  
+  #footer {
     text-align: center;
+    padding-right: 100px;
+  }
+  .point {
+    cursor: pointer;
   }
   .des,
-.dev,
-.pro {
-  display: none;
-}
-#work{
-    text-align: center;
-    color: white;
-       
-}
-.move{
-    margin-top:250px;
-}
-h3{
-    text-align: center;
-    margin-top: 240px;
-}
-.mouse {
-    margin-top: 10%;
-    margin-bottom: 2%;
-    animation: bounce 3s infinite;
+  .dev,
+  .pro {
+    display: none;
   }
-  @keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-50px);
-    }
+  .pic {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+  .pic-description {
+    position: absolute;
+    opacity: 0;
+   transition: opacity 0.2s, visibility 0.2s; 
+    border: 2px solid white;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    color: bisque;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .pic-description_show {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #user-name{
+    margin-right: 3%;
+  
   }
   
-  #scroll {
-    align-items: center;
-  }
   

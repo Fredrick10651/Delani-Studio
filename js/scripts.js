@@ -27,14 +27,3 @@ $(document).ready(function(){
     })
 })
 
-
-$(document).ready(function () {
-    $('button').click(function(){
-        var blanks = ["input"];
-          blanks.forEach(function(blank){ 
-            var userInput = $('this').val();
-            $(blank).text(userInput).val();
-        alert(blank + "we have received the message")
-    });
-    });
-})
