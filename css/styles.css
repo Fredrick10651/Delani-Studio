@@ -1,3 +1,10 @@
+body {
+    overflow-x: hidden;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
   /* Media Queries: Tablet Landscape */
   @media screen and (max-width: 1060px) {
     #primary {
@@ -19,12 +26,6 @@
       margin: 0;
       border: none;
     }
-    body {
-        overflow-x: hidden;
-      }
-      html{
-        scroll-behavior: smooth;
-      }
   }
   
   @media (min-device-width: 600px) {
@@ -46,7 +47,8 @@
     background-size: cover;
     height: 100vh;
     padding-top: 180px;
-
+    /* height: auto;
+    max-width: 100; */
   }
   
   .mouse {
@@ -63,10 +65,10 @@
     }
   }
   
-  #describe {
+  #about {
     text-align: center;
   }
-  #offer {
+  #offering {
     background-image: url(../img/s_image.jpg);
     text-align: center;
     height: 50vh;
@@ -77,10 +79,15 @@
   .logo {
     margin-top: px;
   }
-  #what {
+  #us {
     text-align: center;
   }
- 
+  /* .icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    text-align: center;
+  } */
   #portfolio {
     text-align: center;
   }
@@ -150,5 +157,3 @@
     margin-right: 3%;
   
   }
-  
-  

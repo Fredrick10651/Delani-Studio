@@ -27,3 +27,8 @@ $(document).ready(function(){
     })
 })
 
+$(document).ready(function () {
+    $(".btn").click(function () {
+        alert('we have received your message. Thank you fro reaching out to us.');
+    })
+});
